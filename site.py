@@ -77,6 +77,9 @@ if activity == "Model":
             elif pred == class_names[1]:
                 st.success(f'{pred} was detected in the uploaded image.')
 
+    st.markdown('''
+    [GitHub Repository](https://github.com/Ryan-Awad/Hurricane-Damage-Detection/tree/master)
+    ''')
 
 elif activity == "About":
     st.title("About")
