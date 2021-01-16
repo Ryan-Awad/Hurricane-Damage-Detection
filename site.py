@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
-### Excluding Imports ###
+st.sidebar()
+
 st.title("Hurrican Damage Detection")
 st.write("Hi! This model takes satellite images from earth and depicts whether they have been damaged by a satellite. To begin, upload a png or jpeg file below.")
 
@@ -16,4 +17,7 @@ image_file = st.file_uploader(label="Upload your satellite image", type=["png", 
 
 if image_file != None:
     st.image(load_image(image_file))
+
+
+
 
