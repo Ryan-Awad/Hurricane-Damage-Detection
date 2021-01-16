@@ -1,0 +1,4 @@
+data/*
+ignored/*
+.vscode/*
+__pycache__/*
