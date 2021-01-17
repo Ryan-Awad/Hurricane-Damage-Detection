@@ -1,6 +1,6 @@
 seaborn==0.11.0
 numpy==1.17.4
-streamlit==0.74.1
+streamlit==0.72.0
 tensorflow-cpu==2.4.0
 matplotlib==3.3.2
 pandas==1.1.4
