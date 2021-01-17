@@ -2,8 +2,11 @@ import streamlit as st
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
+import matplotlib.pyplot as plt
+import seaborn as sns
 import pandas as pd
 import numpy as np
+import pydeck as pdk
 from PIL import Image
 
 st.set_page_config(
@@ -96,11 +99,26 @@ elif activity == "About":
 
 elif activity == "Visualize the Data":
     st.title("Visualize the Data")
+
     fit_data = pd.read_csv("visual_data/fit_history.csv")
     st.write('### Model Train and Validation Loss')
     st.line_chart(fit_data[["Train Loss", "Validation Loss"]])
     st.write('### Model Train and Validation Accuracy')
     st.line_chart(fit_data[["Train Accuracy", "Validation Accuracy"]])
+
+    st.write('### Spatial Distribution of Dataset Images')
+    @st.cache
+    def load_data(path):
+        map_data = pd.read_csv(path)
+        return map_data
+
+    map_df = load_data('visual_data/image_locations.csv')
+    fig, ax = plt.subplots()
+    sns.scatterplot(x=map_df['lon'], y=map_df['lat'], ax=ax, size=0.5, legend=False)
+    plt.grid(color='#dddddd')
+    plt.xlabel("Longitude")
+    plt.ylabel("Latitude")
+    st.pyplot(fig)
 else:
     st.title("Page Not Found")
 
