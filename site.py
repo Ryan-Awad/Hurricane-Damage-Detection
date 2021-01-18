@@ -1,9 +1,3 @@
-import sys
-print("SYS VERSION:::::::::::::::::::::::::::" + str(sys.version))
-
-import os
-print("OS FILE:::::::::::::::::::::::::::::::" + str(os.__file__))
- 
 import streamlit as st
 import tensorflow as tf
 from tensorflow import keras
