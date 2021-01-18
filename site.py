@@ -1,3 +1,9 @@
+import sys
+print(sys.version)
+
+import os
+print(os.__file__)
+
 import streamlit as st
 import tensorflow as tf
 from tensorflow import keras
