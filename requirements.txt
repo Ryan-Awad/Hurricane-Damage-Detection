@@ -1,5 +1,5 @@
 matplotlib==3.3.3
-pandas==1.2.0
+pandas==1.1.5
 numpy==1.19.5
 streamlit==0.74.1
 tensorflow-cpu==2.4.0
