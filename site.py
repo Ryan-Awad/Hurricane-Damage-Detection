@@ -80,7 +80,9 @@ if activity == "Model":
                 st.success(f'{pred} was detected in the uploaded image.')
 
     st.markdown('''
-    [GitHub Repository](https://github.com/Ryan-Awad/Hurricane-Damage-Detection/tree/master)
+    [GitHub Repository](https://github.com/Ryan-Awad/Hurricane-Damage-Detection/tree/master) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Devpost Submission](https://devpost.com/software/hurricane-damage-detection-rt1sz6)
+
+    [Personal GitHub](https://github.com/Ryan-Awad) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Linkedin](https://www.linkedin.com/in/ryanawad) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Personal Devpost](https://devpost.com/Ryan-Awad)
     ''')
 
 elif activity == "About":
