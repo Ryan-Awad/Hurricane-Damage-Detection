@@ -13,6 +13,8 @@ st.set_page_config(
     layout="centered"
 )
 
+st.markdown("<style> .reportview-container .main footer {visibility: hidden;}    #MainMenu {visibility: hidden;}</style>", unsafe_allow_html=True)
+
 activity = st.sidebar.selectbox("Analyze", ["Model", "About", "Visualize the Data"])
 
 if activity == "Model":
