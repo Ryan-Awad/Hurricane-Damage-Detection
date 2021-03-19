@@ -1,5 +1,4 @@
 import streamlit as st
-st.markdown("<style> .reportview-container .main footer {visibility: hidden;}    #MainMenu {visibility: hidden;}</style>", unsafe_allow_html=True)
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
