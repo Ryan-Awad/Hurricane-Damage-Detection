@@ -1,4 +1,7 @@
 # [Hurricane Damage Detection](https://hurricane-damage-detection.herokuapp.com/)
+![](https://img.shields.io/badge/TensorFlow-FF6F00?&logo=TensorFlow&logoColor=fff)
+![](https://img.shields.io/badge/Python-306998?&logo=Python&logoColor=FFD43B)
+![](https://img.shields.io/badge/Streamlit-FF4B4B?&logo=Streamlit&logoColor=fff)
 ## [Submission for Waterloo's Hack the North 2020++](https://devpost.com/software/hurricane-damage-detection-rt1sz6)
 ### How the Model Works
 Hurricanes cause lots of devastation and affect many people physically, mentally and economically. For our model, we utilized a dataset that contains satellite images of both damaged and undamaged areas in Texas after Hurricane Harvey unfortunately struck in 2017. For this reason we decided that we would create an application that would detect whether an area has been damaged by a hurricane. This would be useful for detecting if an area was damaged by a hurricane much earlier. This is great because it allows help to be sent earlier to the designated damaged area. Instead of having to wait for a damaged area to be reported, which takes longer, you could get a live satellite image of each area and see exactly which areas need help. 
