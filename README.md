@@ -1,4 +1,4 @@
-# [Hurricane Damage Detection](https://hurricane-damage-detection.herokuapp.com/)
+# Hurricane Damage Detection
 ![](https://img.shields.io/badge/TensorFlow-FF6F00?&logo=TensorFlow&logoColor=fff)
 ![](https://img.shields.io/badge/Python-306998?&logo=Python&logoColor=FFD43B)
 ![](https://img.shields.io/badge/Streamlit-FF4B4B?&logo=Streamlit&logoColor=fff)
